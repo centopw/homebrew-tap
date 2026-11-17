@@ -2,9 +2,9 @@
 # centopw/homebrew-tap/Casks/alloy-client.rb; the release workflow does this after every stable release.
 # Change this template and the script, never the copy in the tap by hand.
 cask "alloy-client" do
-  version "0.5.0"
-  sha256 arm:   "6b427321e1fd1e233e6868eaabfc04bb728dbf39a65228f2c2ec2fde4c5b7e17",
-         intel: "a290ca6c68c24393009f73799512f0e82495b46eaa50b5125081aea2f8dc7e7e"
+  version "0.5.1"
+  sha256 arm:   "e40d3ef51ea2d27338d044c22592b26b6cd1e589f2f979f77ca857158c40ac91",
+         intel: "d4809eeae43e238b8d160adca706801fce88c729559ea96517bcfa5c164736e9"
 
   on_arm do
     url "https://github.com/centopw/alloy/releases/download/v#{version}/Alloy_#{version}_aarch64.dmg"
